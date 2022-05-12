@@ -19,7 +19,7 @@ int fuzzme(char *buf)
 
 int LLVMFuzzerTestOneInput(char* data, size_t size)
 {
-    fuzzme(data);
+    fuzzme(data[0]);
     return 0;
 }
 
