@@ -2,5 +2,5 @@ project: code-terror/mayhem-cmake-example
 target: fuzzme
 
 cmds:
-  - cmd: /fuzzme
+  - cmd: /build/fuzzme
 
